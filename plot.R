@@ -7,6 +7,6 @@ y = factor(y)
 
 cols = c("grey", "orange")
 
-plot(x1, x2, col = cols[y], pch = 19, main = "a scatterplot", xlab = "x1", ylab = "x2")
+plot(x1, x2, col = cols[y], pch = 19, main = "THE END", xlab = "x1", ylab = "x2")
 grid()
 legend("topleft", paste( "y =", levels(y)), col = cols, pch = 19, bg = "white")
